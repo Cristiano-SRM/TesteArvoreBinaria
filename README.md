@@ -5,13 +5,13 @@ Todos os descendentes do nó raiz são considerados arvores (direita e esquerda)
 Valores menores são jogados para a esquerda valores maiores são jogados para a direita
 Nós descendentes da raiz são chamados de filhos, filhos sem descendencias são chamados de folhas
 
---
+
 
 # Compilação:
 javac *.java
 java TesteArvore.java
 
---
+
 
 # Resultado esperado:
 Folha: 15 a esquerda de: 30
@@ -19,7 +19,7 @@ Folha: 45 a direita de: 30
 Folha: 7 a esquerda de: 15
 Folha: 19 a direita de: 15
 
---
+
 
 # A recursão ocorre em :
 this.esquerda.inserir(novo);
