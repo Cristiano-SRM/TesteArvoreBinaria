@@ -34,7 +34,8 @@ Isso permite que um método da classe Arvore chame o mesmo método em suas subá
 
 # ao executar: arvore.inserir(new Folha(7));
 
-1st chamada: 7 é menor que a raiz 15, então se joga para a esquerda
+1st chamada: 7 é menor que a raiz 15, então se joga para a esquerda 
+
 2nd chamada: na esquerda ja existe o filho (15), 7 é menor que 15 então se joga para a esquerda denovo
 cria-se uma nova arvore com valor 7:
       30
